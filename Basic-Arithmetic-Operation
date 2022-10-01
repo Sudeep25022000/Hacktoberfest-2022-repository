@@ -1,0 +1,36 @@
+// Java code to illustrate various operation on operators
+
+import java.io.*;
+
+class arithmeticOperation {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 10, num2 = 20, sum = 0, diff = 0, mul = 1, div = 1, mod = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// adding num1 and num2
+		sum = num1 + num2;
+		System.out.println("The sum = " + sum);
+
+		// subtracting num1 and num2
+		diff = num1 - num2;
+		System.out.println("The difference = " + diff);
+
+		// multiplying num1 and num2
+		mul = num1 * num2;
+		System.out.println("The multiplication = " + mul);
+		
+		// dividing num1 and num2
+		div = num1 / num2;
+		System.out.println("The difference = " + div);
+
+		// remainder of num1 and num2
+		mod = num1 % num2;
+		System.out.println("The remainder = " + mod);
+		
+	}
+}
